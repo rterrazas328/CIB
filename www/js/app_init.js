@@ -7,7 +7,7 @@ var cur_y=0;
 var infoWindows = [];
 var lastShopClicked;
 var locICON = {
-    url:'./img/loc.png',
+    url:'www/img/loc.png',
     size: new google.maps.Size(20, 32)
 };
 var totalPrice = 0.00;
