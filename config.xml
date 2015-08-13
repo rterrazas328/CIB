@@ -28,6 +28,7 @@
     <feature name="Toast">
         <param name="android-package" value="nl.xservices.plugins.Toast" />
     </feature> -->
+    <gap:plugin name="com.paypal.cordova.mobilesdk" source="plugins.cordova.io" />
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
     <gap:plugin name="org.apache.cordova.media-capture" />

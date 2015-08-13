@@ -48,6 +48,11 @@ function initialize_Map() {
                 console.log("done creating marker on tap!");
             });
 
+            google.maps.event.addListenerOnce(map, 'idle', function() {
+                    google.maps.event.trigger(map, 'resize');
+                    map.setCenter(pos);
+            });
+
         })//end event
 
         
@@ -255,4 +260,3 @@ function initShopsView(){
 function selectLocationButton(){
 
 }
-
